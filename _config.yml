@@ -1,1 +1,10 @@
-remote_theme: pages-themes/minimal@v0.2.0
+title: Arjun Anilkumar
+email: your-email@purdue.edu
+description: Mechanical Engineering Portfolio | Propulsion & Manufacturing
+baseurl: "" # leave empty
+url: "https://arjunanilkuma.github.io"
+
+# Build settings
+theme: minima # A standard, clean starter theme
+plugins:
+  - jekyll-feed
