@@ -12,5 +12,5 @@ I designed a two-stage gearbox for an electric go-kart using **MATLAB** for opti
 * **Reduction Ratio:** 4:1
 * **Material:** 7075-T6 Aluminum
 * **Simulation:** FEA conducted in Abaqus
-
-![Gearbox Render](/assets/images/gearbox.png)
+<!-- 
+![Gearbox Render](/assets/images/gearbox.png) -->
