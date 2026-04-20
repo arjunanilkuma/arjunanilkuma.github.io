@@ -5,6 +5,10 @@ baseurl: "" # leave empty
 url: "https://arjunanilkuma.github.io"
 
 # Build settings
-theme: architect # A standard, clean starter theme
+# theme: architect # A standard, clean starter theme
+theme: minima # this one looks like apple lowkey kinda tough
+# theme: cayman # 
+# theme: slate #
 plugins:
   - jekyll-feed
+
