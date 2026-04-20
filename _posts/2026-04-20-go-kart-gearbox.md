@@ -13,4 +13,4 @@ I designed a two-stage gearbox for an electric go-kart using **MATLAB** for opti
 * **Material:** 7075-T6 Aluminum
 * **Simulation:** FEA conducted in Abaqus
 
-<!-- ![Gearbox Render](/assets/images/gearbox.png) -->
+![Gearbox Render](/assets/images/gearbox.png)
