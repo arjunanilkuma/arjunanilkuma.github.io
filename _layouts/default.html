@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  
+  <!-- Main CSS Link -->
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+
+  <!-- MathJax Configuration (Only loads if 'math: true' is in the file's top section) -->
+  {% if page.math %}
+  <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        displayMath: [['$$','$$'], ['\\[','\\]']],
+        processEscapes: true
+      },
+      "HTML-CSS": { linebreaks: { automatic: true } },
+      SVG: { linebreaks: { automatic: true } }
+    });
+  </script>
+  {% endif %}
+</head>
+<body>
+
+  <header style="padding: 20px 5%; border-bottom: 1px solid #eee;">
+    <nav>
+      <strong><a href="{{ '/' | relative_url }}" style="text-decoration: none; color: #000;">{{ site.title }}</a></strong>
+      <span style="float: right;">
+        <a href="{{ '/' | relative_url }}" style="margin-left: 20px; text-decoration: none; color: #666;">Projects</a>
+        <a href="mailto:{{ site.email }}" style="margin-left: 20px; text-decoration: none; color: #666;">Contact</a>
+      </span>
+    </nav>
+  </header>
+
+  <main style="max-width: 800px; margin: 40px auto; padding: 0 20px;">
+    {{ content }}
+  </main>
+
+  <footer style="text-align: center; padding: 40px; color: #999; font-size: 0.9em;">
+    <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }} | Purdue Mechanical Engineering</p>
+  </footer>
+
+</body>
+</html>
