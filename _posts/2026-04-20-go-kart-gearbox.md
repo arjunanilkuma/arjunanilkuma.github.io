@@ -122,7 +122,7 @@ where $W_{t}$ is the tangential force and $\phi$ is the pitch angle of the gear
 
 Using these forces, we can take the moment about point A (see Figure 1.1 for points) to find reaction forces of the bearing at point D in the y-direction:
 $$
-R_{dy} = \frac{{W_{t_{2}} \times (\text{dist. from center of bearing to Gear 2}) - W_{t_{3}} \times (\text{dist. fromcenter to bearing to Gear 3})}}{\text{(distance from center of bearing to center of other bearing})} 
+R_{dy} = \frac{W_{t_{2} \times (\text{dist. from center of bearing to Gear 2}) - W_{t_{3}} \times (\text{dist. fromcenter to bearing to Gear 3})}}{\text{(distance from center of bearing to center of other bearing})} 
 $$
 $$
 R_{dy} = \frac{(666.93\text{ lbf} \times 1.228\text{ in}) - (2667.73\text{ lbf} \times 8.437\text{ in})}{9.6063\text{ in}} = -2257.97\text{ lbf}
